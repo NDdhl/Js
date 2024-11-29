@@ -1,4 +1,4 @@
-function max_of_three(x, y, z) 
+function max_of_three(x, y, z) // cho 3 số tìm số dương lớn nhất
 {
   let max_val = 0;
   if (x > y)
@@ -17,9 +17,5 @@ function max_of_three(x, y, z)
 }
 
 console.log(max_of_three(1, 0, 1));
-
-// Log the result of calling max_of_three with the arguments 0, -10, -20 to the console
 console.log(max_of_three(0, -10, -20));
-
-// Log the result of calling max_of_three with the arguments 1000, 510, 440 to the console
 console.log(max_of_three(1000, 510, 440)); 
