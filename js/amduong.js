@@ -1,6 +1,6 @@
-function positive_negative(x, y) /*kiểm tra hai số có 1 số dương 1 số âm*/
+function positive_negative(x, y) // kiểm tra hai số có 1 số dương 1 số âm
 {
-  if ((x < 0 && y > 0) || (x > 0 && y < 0))   /* dấu || là phép OR */
+  if ((x < 0 && y > 0) || (x > 0 && y < 0))   // dấu || là phép OR 
   {
     return true;
   } 
